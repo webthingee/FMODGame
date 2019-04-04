@@ -74,9 +74,9 @@ report.xml
 ## Don't track log files
 fmod.log
 fmod_editor.log
-## Don't track Settings
-**/FMODStudioSettings.*
-## Keep cache local per user, allow Settings to be tracked
-**/FMODStudioCache.*
+## Don't track settings, cache, or additional folders
+## note: **/Resources/holdDirectory.MD ensure the folder is still created
+**/Resources/FMOD*.*
+**/Resources/*/
 ## Keep user directories local per user, allow Banks to be tracked
 **/StreamingAssets/**
