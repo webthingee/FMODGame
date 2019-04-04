@@ -1,14 +1,10 @@
 # FMODGame
 
 ## Working with ONLY the GAME, not FMOD
-Just checkout the project
-
-_Note:_
-
-You should not need to change the FMOD settings. If you do, you will need to add a line to your `.git/exclude` file so that your changes don't get committed. That line is: 
-```
-**/FMODStudioSettings.*
-```
+* You may need to adjust the path to the `FMODBanks` folder, located in the root (e.g. a sibling to `Assets` folder. 
+* FMOD > EDIT SETTINGS
+* Browse and find your local path to `FMODBanks`
+* See Configure Git NOT to track FMODStudioSettings below
 
 ## Working with ONLY FMOD, not the GAME
 Audio Repo : https://github.com/webthingee/FMODAudio
@@ -21,6 +17,13 @@ Structure w/ both repos should look like this example:
 drwxr-xr-x  8 user  staff  256 Apr  1 15:55 FMODAudio
 drwxr-xr-x  8 user  staff  256 Apr  1 15:55 FMODGame
 ```
+
+## Configure Git NOT to track FMODStudioSettings
+If you need to change the FMOD settings, you will need to add a line to your `.git/exclude` file so that your changes don't get committed. That line is: 
+```
+**/FMODStudioSettings.*
+```
+
 
 Open Unity Game
 Assets will load

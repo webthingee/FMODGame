@@ -77,4 +77,4 @@ fmod_editor.log
 ## Keep cache local per user, allow Settings to be tracked
 **/FMODStudioCache.*
 ## Keep user directories local per user, allow Banks to be tracked
-**/StreamingAssets/*/
+**/StreamingAssets/**
