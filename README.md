@@ -4,6 +4,7 @@
 * You will need to adjust/create the path to the `FMODBanks` folder, located in the root (e.g. a sibling to `Assets` folder. 
 * FMOD > EDIT SETTINGS
 * Browse and find your local path to `FMODBanks`
+* This will likely require the banks to be refreshed FMOD > REFRESH BANKS
 
 ## Working with ONLY FMOD, not the GAME
 Audio Repo : https://github.com/webthingee/FMODAudio
