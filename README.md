@@ -1,5 +1,7 @@
 # FMODGame
 
+Audio Repo : https://github.com/webthingee/FMODGame
+
 Structure w/ both repos should look like this:
 ```
 drwxr-xr-x  8 seanlange  staff  256 Apr  3 17:51 FMODAudio
