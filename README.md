@@ -15,8 +15,11 @@ Audio Repo : https://github.com/webthingee/FMODAudio
 Audio Repo : https://github.com/webthingee/FMODAudio
 
 * Structure w/ both repos should look like this example:
-> drwxr-xr-x  8 user  staff  256 Apr  1 15:55 FMODAudio
-> drwxr-xr-x  8 user  staff  256 Apr  1 15:55 FMODGame
+
+```
+drwxr-xr-x  8 user  staff  256 Apr  1 15:55 FMODAudio
+drwxr-xr-x  8 user  staff  256 Apr  1 15:55 FMODGame
+```
 
 * The important part is that the FMOD project files and the UNITY project are not in the same hierarchy. The specific are really up to you.
 * You may get errors on first load, hit play or ignore them until Unity is pointing to the FMOD project file.
