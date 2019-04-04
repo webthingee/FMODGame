@@ -76,7 +76,8 @@ fmod.log
 fmod_editor.log
 ## Don't track settings, cache, or additional folders
 ## note: **/Resources/holdDirectory.MD ensure the folder is still created
-**/Resources/FMOD*.*
-**/Resources/*/
+**/Resources/**
+!**/Resources/holdDirectory.MD
 ## Keep user directories local per user, allow Banks to be tracked
 **/StreamingAssets/**
+!**/StreamingAssets/holdDirectory.MD
