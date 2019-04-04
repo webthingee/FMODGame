@@ -1,9 +1,11 @@
 # FMODGame
 
 ## Working with ONLY the GAME, not FMOD
+* You may get errors on first load, hit play or ignore them until Unity is pointing to the FMOD project file.
 * You will need to adjust/create the path to the `FMODBanks` folder, located in the root (e.g. a sibling to `Assets` folder. 
 * FMOD > EDIT SETTINGS
-* Browse and find your local path to `FMODBanks`
+* In settings, you will use the "Single Project Build" button
+* Browse... and find your local path to `FMODBanks`
 * This will likely require the banks to be refreshed FMOD > REFRESH BANKS
 
 ## Working with ONLY FMOD, not the GAME
@@ -12,30 +14,22 @@ Audio Repo : https://github.com/webthingee/FMODAudio
 ## Working with FMOD, and the GAME
 Audio Repo : https://github.com/webthingee/FMODAudio
 
-Structure w/ both repos should look like this example:
-```
+* Structure w/ both repos should look like this example:
+> ```
 drwxr-xr-x  8 user  staff  256 Apr  1 15:55 FMODAudio
 drwxr-xr-x  8 user  staff  256 Apr  1 15:55 FMODGame
 ```
 
-## Configure Git NOT to track FMODStudioSettings
-If you need to change the FMOD settings, you will need to add a line to your `.git/exclude` file so that your changes don't get committed. That line is: 
-```
-**/FMODStudioSettings.*
-```
+* The important part is that the FMOD project files and the UNITY project are not in the same hierarchy. The specific are really up to you.
+* You may get errors on first load, hit play or ignore them until Unity is pointing to the FMOD project file.
+* FMOD > EDIT SETTINGS
+* In settings, you will use the "Project" button
+* Browse... and find your local path to FMOD project you got from git.
+* This will likely require the banks to be refreshed FMOD > REFRESH BANKS
 
+## Test Scene
+* There is a scene in the FMOD_UI for testing.
+* You may need to assing Music and a Test sound effect. Both of which need to be 2D at the moment.
 
-Open Unity Game
-Assets will load
-You may get errors on first load, hit play or ignore them until Unity is pointing to the FMOD project file.
-
-Top Menu
-FMOD > EDIT SETTINGD
-
-Settings Window
-Project Button Selected (dark)
-Studio Project Path (Browse...)
-- point to the project file
-
-There is a scene in the FMOD_UI for testing.
-You may need ot assing Music and a Test sound effect. Both of which need to be 2D at the moment.
+## Notes
+* Using a holdDirectory.MD file to ensure some directories are created and the .meta is tracked in and effort to make conflicts less likely.
