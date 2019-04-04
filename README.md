@@ -28,6 +28,10 @@ drwxr-xr-x  8 user  staff  256 Apr  1 15:55 FMODGame
 * Browse... and find your local path to FMOD project you got from git.
 * This will likely require the banks to be refreshed FMOD > REFRESH BANKS
 
+NOTE:
+* The sound dev will be able to use the Project, to create the .bank files in the /StreamingAssets folder. - however -
+* Before commiting the GAME to the repo. The sound dev will need to copy the .bank files to the FMODBanks folder referenced above.
+
 ## Test Scene
 * There is a scene in the FMOD_UI for testing.
 * You may need to assing Music and a Test sound effect. Both of which need to be 2D at the moment.
