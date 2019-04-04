@@ -15,9 +15,9 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: /Users/seanlange/GameDev/Prototypes/newgame/fmod/MyAudioTest.fspro
-  SourceProjectPathUnformatted: /Users/seanlange/GameDev/Prototypes/newgame/fmod/MyAudioTest.fspro
-  SourceBankPathUnformatted: /Users/seanlange/GameDev/Prototypes/newgame/fmod/Build
+  sourceProjectPath: /Users/seanlange/GameDev/Prototypes/FMODTest/FMODAudio/MyAudioTest.fspro
+  SourceProjectPathUnformatted: /Users/seanlange/GameDev/Prototypes/FMODTest/FMODAudio/MyAudioTest.fspro
+  SourceBankPathUnformatted: /Users/seanlange/GameDev/Prototypes/FMODTest/FMODAudio/Build
   AutomaticEventLoading: 1
   BankLoadType: 0
   AutomaticSampleLoading: 0
