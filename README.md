@@ -1,10 +1,9 @@
 # FMODGame
 
 ## Working with ONLY the GAME, not FMOD
-* You may need to adjust the path to the `FMODBanks` folder, located in the root (e.g. a sibling to `Assets` folder. 
+* You will need to adjust/create the path to the `FMODBanks` folder, located in the root (e.g. a sibling to `Assets` folder. 
 * FMOD > EDIT SETTINGS
 * Browse and find your local path to `FMODBanks`
-* See Configure Git NOT to track FMODStudioSettings below
 
 ## Working with ONLY FMOD, not the GAME
 Audio Repo : https://github.com/webthingee/FMODAudio
