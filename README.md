@@ -1,11 +1,25 @@
 # FMODGame
 
+## Working with ONLY the GAME, not FMOD
+Just checkout the project
+
+_Note:_
+
+You should not need to change the FMOD settings. If you do, you will need to add a line to your `.git/exclude` file so that your changes don't get committed. That line is: 
+```
+**/FMODStudioSettings.*
+```
+
+## Working with ONLY FMOD, not the GAME
 Audio Repo : https://github.com/webthingee/FMODAudio
 
-Structure w/ both repos should look like this:
+## Working with FMOD, and the GAME
+Audio Repo : https://github.com/webthingee/FMODAudio
+
+Structure w/ both repos should look like this example:
 ```
-drwxr-xr-x  8 seanlange  staff  256 Apr  3 17:51 FMODAudio
-drwxr-xr-x  8 seanlange  staff  256 Apr  3 17:51 FMODGame
+drwxr-xr-x  8 user  staff  256 Apr  1 15:55 FMODAudio
+drwxr-xr-x  8 user  staff  256 Apr  1 15:55 FMODGame
 ```
 
 Open Unity Game
