@@ -1,6 +1,6 @@
 # FMODGame
 
-Audio Repo : https://github.com/webthingee/FMODGame
+Audio Repo : https://github.com/webthingee/FMODAudio
 
 Structure w/ both repos should look like this:
 ```
